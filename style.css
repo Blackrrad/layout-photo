@@ -21,7 +21,7 @@ body{
 display: block;
 width: 100%;
 box-sizing: border-box;
-border: 5px solid rgb(35, 123, 255);
+border: 2px solid rgb(238, 240, 243);
 max-height: 200px;
 
 
@@ -84,21 +84,28 @@ audio{
     overflow-y: auto; 
 }
 .content1>div{
-    color: white;
-    background-color: rgb(41, 46, 114); 
+    color: rgb(235, 224, 224);
+    background-color: rgb(1, 1, 19); 
     width: 100%;
     display: flex;
     flex: 1;
     padding: 5px;
     flex-direction: column;
     gap: 10px; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .listTrack1 div{
-    flex: 100%;
     width: 100%; 
     padding: 10px; 
     border: 1px solid black; 
     box-sizing: border-box; 
+    display: flex;
+    height: 50%;
+    text-align: end;
+    
     
 }
 
@@ -118,6 +125,7 @@ audio{
   
     .content2>div{
         flex-direction: column;
+        
     }
     .content2>div>div{
         min-height: 200px;
